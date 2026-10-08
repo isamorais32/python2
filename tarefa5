@@ -1,0 +1,22 @@
+dicionario = {}
+
+nome = input("digite seu nome:"),
+telefone = int (input(" digite seu numero de telefone:")), 
+email = input("digite seu email:"),
+
+dicionario = {
+    "nome": "  ",
+    "telefone": "  ",
+    "email" : "  "
+ }
+
+dicionario ["nome"]= nome 
+dicionario ["telefone"]= telefone 
+dicionario ["email"] = email
+
+print (dicionario)
+      
+
+
+
+

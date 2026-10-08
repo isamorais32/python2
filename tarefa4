@@ -1,0 +1,6 @@
+numeros = [3, 8, 15, 22, 27, 34, 41, 50]
+numeros_pares =[]
+for i in range(0,8): 
+    if  numeros [i] % 2 ==0:
+        numeros_pares.append(numeros[i])
+        print (numeros_pares)
